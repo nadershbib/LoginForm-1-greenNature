@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9)),url('./pexels-pixabay-531321\ \(1\).jpg')center/cover no-repeat fixed;
+}
+
+.login-box{
+  
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     width: 300px;
+     color: bisque;
+     display: flex;
+     flex-direction: column;
+     /* justify-content: space-between; */
+       
+
+}
+
+.login-box h1{
+     align-self: flex-start;
+     margin-bottom: 20px;
+     border-bottom: 6px solid green;
+     /* padding: 10px; */
+     padding-bottom: 5px;
+}
+
+.form-input{
+    width: 100%;
+    border-bottom: 2px solid green;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+
+}
+
+.form-input i{
+    font-size: 22px;
+    margin-left: 8px;
+    margin-bottom: 6px;
+
+}
+
+.form-input input{
+   border: none;
+   outline: none;
+   background: none;
+   margin-left: 10px;
+   font-size: 17px;
+   /* text-transform: lowercase; */
+   color: rgba(226,226,226);
+}
+
+.form-input input::placeholder{
+    color: rgb(201, 187, 171) !important;
+    
+}
+
+.btn{
+    background: none;
+    color: bisque;
+    padding: 0.3rem;
+    border: 1px solid rgb(45, 197, 53);
+    font-size: 18px;
+    outline: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn:hover{
+    background-color:  rgb(9, 17, 10,0.8);
+    color: rgb(45, 197, 53);
+    border: 1px solid rgb(117, 108, 108);
+}
+
